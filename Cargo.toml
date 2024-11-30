@@ -25,6 +25,7 @@ egui_tiles = "0.10"
 fastrand = "2"
 futures = "0.3"
 fuzzy-matcher = "0.3"
+gix = "0.68"
 iced-x86 = "1"
 image = { version = "0.25", default-features = false, features = [
     "png",
@@ -38,6 +39,7 @@ rayon = "1"
 reqwest = { version = "0.12", features = ["json"] }
 serde = { version = "1", features = ["derive"] }
 smart-default = "0.7"
+steamlocate = "2"
 strfmt = "0.2"
 sysinfo = "0.32"
 thiserror = "1"
@@ -62,6 +64,7 @@ windows = { version = "0.58", default-features = false, features = [
     "Win32_System_Threading",
     "Win32_System_Diagnostics_Debug",
     "Win32_System_WindowsProgramming",
+    "Win32_UI_Shell",
 ] }
 
 [build-dependencies]

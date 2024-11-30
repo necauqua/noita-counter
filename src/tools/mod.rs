@@ -41,6 +41,7 @@ tools! {
     process_panel::ProcessPanel : "Noita";
     orb_radar::OrbRadar;
     live_stats::LiveStats;
+    git_backup::GitBackup;
     material_pipette::MaterialPipette;
     material_list::MaterialList;
     address_maps::AddressMaps;
